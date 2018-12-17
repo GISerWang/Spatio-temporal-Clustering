@@ -35,3 +35,5 @@
 
 #### （1）[Python之向量（Vector）距离矩阵计算](https://blog.csdn.net/LoveCarpenter/article/details/85048291)
 #### （2）[聚类算法之K-means算法](https://blog.csdn.net/LoveCarpenter/article/details/85048822)
+#### （3）[聚类算法之DBSCAN算法](https://blog.csdn.net/LoveCarpenter/article/details/85048944)
+#### （4）[聚类算法之OPTICS算法](https://blog.csdn.net/LoveCarpenter/article/details/85049135)
