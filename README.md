@@ -9,10 +9,10 @@
 ### 1.2 聚类算法
 
 * MYDBSCAN：基于密度的聚类DBSCAN（Density-Based Spatial Clustering of Applications with Noise）算法的底层实现
+* Adaptive-DBSCAN：自适应的基于密度的空间聚类（Adaptive Density-Based Spatial Clustering of Applications with Noise）算法的底层实现
 * MYOPTICS：基于密度的聚类OPTICS（Ordering points to identify the clustering structure）算法的底层实现
 * MYKMeans：基于划分的聚类KMeans算法的底层实现
 * MYCFSFDP：基于划分和密度的聚类CFSFDP（Clustering by fast search and find of density peaks）算法的底层实现
-
 
 ### 1.3 时空聚类算法
 
