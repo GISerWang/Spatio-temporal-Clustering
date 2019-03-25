@@ -70,11 +70,16 @@ def plotFeature(data, labels_):
 # 加载数据
 data = np.loadtxt("data/cluster.csv", delimiter=",")
 start = time.clock()
+# 获得一共具有多少条数据
+n = data.shape[0]
+# 构造每一个轨迹点的半径及包含的轨迹点个数
+epsArr = np.full((n),2)
+minPtsArr = np.full((n),15)
 # Adaptive_DBSCAN聚类并返回标识；ϵ=2，且MinPts=15
 # 第一个参数是每一个轨迹点的坐标
 # 第二个参数是每一个轨迹点自己的半径
 # 第三个参数是每一个轨迹点自己的最小包含点
-labels=Adaptive_DBSCAN(data,np.full((314),2),np.full((314),15))
+labels=Adaptive_DBSCAN(data,epsArr,minPtsArr)
 end = time.clock()
 print('finish all in %s' % str(end - start))
 plotFeature(data, labels)
