@@ -5,6 +5,7 @@
 * data/cluster_time：按时间顺序排列的用户行为轨迹
 * data/cluster_unix_time：按时间顺序(时间已经转换为时间戳)排列的用户行为轨迹
 * data/cluster_unix_time：按时间顺序(时间约束隐含，没有时间字段)排列的用户行为轨迹
+* data/cluster_unix_time_indoor：按时间顺序(时间已经转换为时间戳)排列的室内用户行为轨迹，存在楼层ID（存在时间连续，楼层不同的簇集，即1楼与4楼形成两个簇）
 
 ### 1.2 聚类算法
 
