@@ -40,6 +40,11 @@ def show_nodes_for_chosing_mainly_leaders(gamma):
     plt.ylabel('γ',fontsize=20)
     # plt.title('递减顺序排列的γ')
     plt.show()
+# 显示聚类结果
+def show_result1(labels, data, corePointIds):
+    plt.figure(num=3, figsize=(15, 10))
+    plt.scatter(data[corePointIds, 1],data[corePointIds, 2],marker='x',s=100,color='red')
+    return plt
 def show_result(plt,labels, data, corePoints):
     # 画最终聚类效果图
     # 一共有多少类别
@@ -107,6 +112,7 @@ def extract_clustering(data,corePointIds,xyDisMat):
 def extract_corePoints(num, disThreh,xyDisMat,gamma):
     # 选取前num个点，（num并不是class的个数，还需要合并）
     corePointIds = np.argsort(-gamma)[: num]  # 选择
+    plt=show_result1(None,data,corePointIds)
     # 将点索引按照时间顺序排序
     corePointIds=np.sort(corePointIds)
     # result时最终的分类id
