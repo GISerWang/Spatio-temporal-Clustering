@@ -18,6 +18,7 @@
 
 * ST-DBSCAN：基于DBSCAN改造的时空聚类算法
 * ST-OPTICS：基于OPTICS改造的时空聚类算法
+* ST-CFSFDP：基于CFSFDP改造的时空聚类算法
 * ST-AGNES_DIS：基于凝聚层次聚类（AGNES）改造的时空聚类算法（用距离做阈值，自动生成聚类个数）
 * ST-AGNES_SUM：基于凝聚层次聚类（AGNES）改造的时空聚类算法（使用聚类个数做阈值）
 * WKM：WKM（Warped K-Means）基于K-Means改造的时空聚类算法（使用聚类个数做阈值）
