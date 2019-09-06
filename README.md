@@ -19,6 +19,7 @@
 ### 1.3 时空聚类算法
 
 * ST-DBSCAN：基于DBSCAN改造的时空聚类算法
+* Indoor-STDBSCAN：基于DBSCAN改造的室内时空聚类算法，添加了时间约束、楼层约束，以及簇集的合并延时间轴前进不会后退
 * ST-OPTICS：基于OPTICS改造的时空聚类算法
 * ST-CFSFDP：基于CFSFDP改造的时空聚类算法
 * ST-AGNES_DIS：基于凝聚层次聚类（AGNES）改造的时空聚类算法（用距离做阈值，自动生成聚类个数）
