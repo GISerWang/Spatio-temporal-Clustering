@@ -10,6 +10,7 @@
 ### 1.2 聚类算法
 
 * MYDBSCAN：基于密度的聚类DBSCAN（Density-Based Spatial Clustering of Applications with Noise）算法的底层实现
+* MYAP：基于划分的聚类AP（Affinity Propagation Clustering Algorithm ）算法的底层实现--近邻传播聚类算法
 * Adaptive-DBSCAN：自适应的基于密度的空间聚类（Adaptive Density-Based Spatial Clustering of Applications with Noise）算法的底层实现
 * MYOPTICS：基于密度的聚类OPTICS（Ordering points to identify the clustering structure）算法的底层实现
 * MYKMeans：基于划分的聚类KMeans算法的底层实现
