@@ -23,6 +23,8 @@
 * ST-CFSFDP：基于CFSFDP改造的时空聚类算法
 * ST-AGNES_DIS：基于凝聚层次聚类（AGNES）改造的时空聚类算法（用距离做阈值，自动生成聚类个数）
 * ST-AGNES_SUM：基于凝聚层次聚类（AGNES）改造的时空聚类算法（使用聚类个数做阈值）
+* Indoor-STAGNES_DIS：基于凝聚层次聚类（AGNES）改造的室内时空聚类算法（用距离做阈值，自动生成聚类个数）-引入了时间窗口与楼层阈值
+* Indoor-STAGNES_SUM：基于凝聚层次聚类（AGNES）改造的室内时空聚类算法（使用聚类个数做阈值）-引入了时间窗口与楼层阈值
 * WKM：WKM（Warped K-Means）基于K-Means改造的时空聚类算法（使用聚类个数做阈值）
 
 ## 2 算法原理
