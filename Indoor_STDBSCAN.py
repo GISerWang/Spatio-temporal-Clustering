@@ -1,4 +1,5 @@
 # -*- coding: UTF-8 -*-
+# 此算法还可以进一步改进（邻域搜索的时候也要保证沿着时间轴前进-尤其是下一个簇集的第一个点的邻域搜素）
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.spatial.distance import cdist
